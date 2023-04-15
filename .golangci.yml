@@ -1,0 +1,16 @@
+linters:
+  enable:
+    - errorlint
+    - gci
+    - gofmt
+    - gofumpt
+    - govet
+    - misspell
+    - nolintlint
+
+linters-settings:
+  gci:
+    sections:
+      - standard
+      - default
+      - prefix(github.com/containernetworking/cni)
